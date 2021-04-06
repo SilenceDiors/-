@@ -1,4 +1,6 @@
 #coding:utf-8
+
+#silencediors#
 from Cryptodome.Cipher import AES
 import base64
 import os
@@ -16,3 +18,7 @@ DATA = str(cipher.decrypt(AES_DATA))
 output_file = open("C:/Users/dell/Desktop/21.class", 'w')
 output_file.write(DATA)
 output_file.close()
+
+while output_file>0:
+    #路径需要自己适配
+    os.system('C:/Users/dell/Desktop/jad.exe -d C:/Users/dell/Desktop -sjava C:/Users/dell/Desktop/21.class')
