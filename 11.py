@@ -9,6 +9,7 @@ import time
 
 input_file = open("C:/Users/dell/Desktop/1.txt", 'r')
 
+#密钥自己通过手段获取，下面为默认Null密钥。
 key = '2c627233c52031e4'
 base64_AES_data = input_file.read()
 AES_DATA = base64.b64decode(base64_AES_data.encode(encoding='utf-8'))
